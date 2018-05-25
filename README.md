@@ -24,13 +24,13 @@
 ###Passo ? - Código Python:
 
 `import RPi.GPIO #biblioteca GPIO
-imsport sys #biblioteca sys
+imsport sys #biblioteca sys`
 
-def incializaBoard():
+`def incializaBoard():
     GPIO.setmode(GPIO.BOARD)
-    GPIO.setwarnings(False)
+    GPIO.setwarnings(False)`
     
-def definePinoComoSaida(numeroPino):
+`def definePinoComoSaida(numeroPino):
     GPIO.setup(numeroPino, GPIO.OUT)
 
 def escreveParaPorta(numeroPino, estadoPorta):
