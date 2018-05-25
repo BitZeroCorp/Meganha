@@ -53,5 +53,5 @@ escreveParaPorta(numeroPino, estadoPorta)
 
 O php possui usuários exclusivos para poder trabalhar. Sendo assim é necessário autorizar a biblioteca GPIO para se relacionar com o php.
 
-* sudo usermod =aG gpio www-data
+* sudo usermod -aG gpio www-data
 * sudo service apache2 restart
