@@ -11,17 +11,17 @@
 * sudo apt-get update -y
 * sudo apt-get upgrade -y
 
-###Passo 2 - 
+###Passo 2 - Instalação do Apache2 e php
 
-* 
+* sudo apt install apache2 libapache2-mod-php7.0.
 
 
-###Passo ?? - Ligação do Harware (RPi + módulo):
+###Passo 3 - Ligação do Harware (RPi + módulo):
 
 ![Hardware - RPi e módulo relé](https://i.imgur.com/Ax7tEyQ.png)
 
 
-###Passo ? - Código Python:
+###Passo 4 - Código Python:
 
 ```import RPi.GPIO #biblioteca GPIO
 imsport sys #biblioteca sys
@@ -37,9 +37,11 @@ def escreveParaPorta(numeroPino, estadoPorta):
     GPIO.output(numeroPino, estadoPorta)
     
 numeroPino = int(sys.argv[1]) #Ler os parametros
-estadoPorta = int(sys.argv[2])```
+estadoPorta = int(sys.argv[2])
 
 
-`inicializaBorad()
+inicializaBorad()
 definePinoComoSaida(numeroPino)
-escreveParaPorta(numeroPino, estadoPorta)`
+escreveParaPorta(numeroPino, estadoPorta)```
+
+###
