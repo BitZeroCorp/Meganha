@@ -23,21 +23,22 @@
 
 ###Passo ? - Código Python:
 
-`import RPi.GPIO #biblioteca GPIO`
-`imsport sys #biblioteca sys`
+```import RPi.GPIO #biblioteca GPIO
+imsport sys #biblioteca sys
 
-`def incializaBoard():`
- `   GPIO.setmode(GPIO.BOARD)`
- `   GPIO.setwarnings(False)`
+def incializaBoard():
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setwarnings(False)
     
-`def definePinoComoSaida(numeroPino):`
- `   GPIO.setup(numeroPino, GPIO.OUT)`
+def definePinoComoSaida(numeroPino):
+    GPIO.setup(numeroPino, GPIO.OUT)
 
-`def escreveParaPorta(numeroPino, estadoPorta):`
- `   GPIO.output(numeroPino, estadoPorta)`
+def escreveParaPorta(numeroPino, estadoPorta):
+    GPIO.output(numeroPino, estadoPorta)
     
-`numeroPino = int(sys.argv[1]) #Ler os parametros`
-`estadoPorta = int(sys.argv[2])`
+numeroPino = int(sys.argv[1]) #Ler os parametros
+estadoPorta = int(sys.argv[2])```
+
 
 `inicializaBorad()
 definePinoComoSaida(numeroPino)
