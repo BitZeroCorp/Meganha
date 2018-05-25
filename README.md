@@ -1,4 +1,4 @@
 # Meganha
 Parte hardware
 
-![Hardware - RPi e módulo relé](https://imgur.com/a/AveiQ56)
+![Hardware - RPi e módulo relé](https://i.imgur.com/Ax7tEyQ.png)
