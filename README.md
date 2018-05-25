@@ -23,8 +23,8 @@
 
 ###Passo ? - Código Python:
 
-`import RPi.GPIO #biblioteca GPIO
-imsport sys #biblioteca sys`
+`import RPi.GPIO #biblioteca GPIO`
+`imsport sys #biblioteca sys`
 
 `def incializaBoard():`
  `   GPIO.setmode(GPIO.BOARD)`
