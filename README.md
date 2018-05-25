@@ -48,3 +48,10 @@ escreveParaPorta(numeroPino, estadoPorta)
 ### Passo 5 - Marcação PHP
 
 * [Arquivo php.index](https://drive.google.com/open?id=1C5P7FTTj5g_hb-LXcZPLzfmiKNAOX8uF) 
+
+### Passo 6 - Autorização php - GPIO
+
+O php possui usuários exclusivos para poder trabalhar. Sendo assim é necessário autorizar a biblioteca GPIO para se relacionar com o php.
+
+* sudo usermod =aG gpio www-data
+* sudo service apache2 restart
